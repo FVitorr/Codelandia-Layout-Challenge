@@ -1,4 +1,3 @@
-import React from "react";
 import { Container , Input, Title, CardArea} from "./styles";
 import Card from "../Card";
 

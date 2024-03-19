@@ -1,4 +1,4 @@
-import React, { Children } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom/client'; // Corrigido aqui
 import App from './App.tsx';
 import './index.css';
