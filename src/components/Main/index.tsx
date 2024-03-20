@@ -1,11 +1,13 @@
-import { Container , Input, Title, CardArea} from "./styles";
+import { Container , Input, InputArea, SearchIcon, Title, CardArea} from "./styles";
 import Card from "../Card";
+
+
 
 const Main = ()=>{
   return (<>
   <Container>
     <Title><span>Code</span>lândia</Title>
-    <Input placeholder="Pesquisa no blog"/>
+    <InputArea><Input placeholder="Pesquisa no blog"/><SearchIcon/></InputArea>
   </Container>
   <CardArea>
     <Card 

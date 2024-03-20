@@ -3,7 +3,6 @@ import {Heart} from "@styled-icons/bootstrap/Heart"
 import {HeartFill} from "@styled-icons/bootstrap/HeartFill"
 
 export const Container = styled.div`
-  margin: 0 auto;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -11,6 +10,7 @@ export const Container = styled.div`
   background-color:#17171A;
   height: 20%;
   width: 75%;
+  max-width:1280px;
   border-radius:8px;
   padding: 2rem 2rem 2rem 2rem;
   gap:1rem;

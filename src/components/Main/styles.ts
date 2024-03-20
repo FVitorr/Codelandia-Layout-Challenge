@@ -1,4 +1,7 @@
 import styled from "styled-components";
+import {Search} from "@styled-icons/bootstrap/Search"
+
+
 
 export const Container = styled.div`
   margin: 0 auto;
@@ -13,12 +16,30 @@ export const Container = styled.div`
 `;
 
 export const Input = styled.input`
-  width:78%;
+  width:100%;
+  max-width:1300px;
   height:32px;
   border-radius:8px;
-  padding: 2px 0 2px 1rem;
+  padding: 2px 0 2px 3rem;
   background: #202024;
-  border: 2px #252529;
+  border: 2px #252529 solid;
+`;
+
+export const SearchIcon = styled(Search)`
+  width:20px;
+  position: absolute;
+  top: 50%;
+  left: 2%; /* Ajuste a posição horizontal do ícone conforme necessário */
+  transform: translateY(-50%);
+  color: #E07B67;
+`;
+
+export const InputArea = styled.div`
+  position:relative;
+  width:80%;
+  max-width:1380px;
+  display: flex;
+  justify-content:center;
 `;
 
 export const Title = styled.h1`
@@ -40,3 +61,4 @@ export const CardArea = styled.div`
   justify-content: center;
   gap:30px;
 `;
+
